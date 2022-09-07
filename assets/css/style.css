@@ -3,7 +3,8 @@
     padding: 0;
     margin: 0;
 }
-
+/* replaced div class header with just header, as well as a div where nav can go (css cleaned also) */
+/* although only one span exists in this file and it will be useful in future for a class here, as it's the only span inside the h1 & header I have removed the class., */
 body {
     background-color: #d9dcd6;
 }
@@ -86,6 +87,9 @@ p {
     background-color: #2589bd;
 }
 
+/*  adjusted redundant classes made for each individual div, as same css applied, combined to one class ie: .righttext & .lefttext */
+/*  added the alt text to all images */
+
 .righttext {
     margin-bottom: 32px;
     color: #ffffff;
@@ -119,7 +123,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Changed h2 to h4 to get in order (realigned CSS applicable) */
+/* Changed div class footer to just footer (realigned CSS applicable) */
 footer {
     padding: 30px;
     clear: both;
